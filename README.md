@@ -12,7 +12,6 @@ To write a program to predict the price of the house and number of occupants in 
 2. Scale both X (features) and Y (targets) using StandardScaler.
 3. Use SGDRegressor wrapped in MultiOutputRegressor to train on the scaled training data.
 4. Predict on test data, inverse transform the results, and calculate the mean squared error.
-5. 
 ## Program:
 
 ```
